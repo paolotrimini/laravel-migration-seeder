@@ -11,5 +11,6 @@
             'original_title' => $faker -> lastname,
             'nationality' => $faker -> country,
             'date' => $faker -> date,
+            'vote' => $faker -> numberBetween(1, 10),
         ];
     });

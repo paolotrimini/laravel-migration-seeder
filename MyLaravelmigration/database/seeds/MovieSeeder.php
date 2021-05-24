@@ -1,18 +1,18 @@
 <?php
 
-use Illuminate\Database\Seeder;
+    use Illuminate\Database\Seeder;
 
-use App\Movie;
+    use App\Movie;
 
-class MovieSeeder extends Seeder
-{
-    /**
-     * Run the database seeds.
-     *
-     * @return void
-     */
-    public function run()
+    class MovieSeeder extends Seeder
     {
-        factory(Movie::class, 20) -> create();
+        /**
+         * Run the database seeds.
+         *
+         * @return void
+         */
+        public function run()
+        {
+            factory(Movie::class, 20) -> create();
+        }
     }
-}
