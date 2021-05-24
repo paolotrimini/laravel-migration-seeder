@@ -13,6 +13,6 @@
          */
         public function run()
         {
-            factory(Movie::class, 20) -> create();
+            factory(Movie::class, 10) -> create();
         }
     }
