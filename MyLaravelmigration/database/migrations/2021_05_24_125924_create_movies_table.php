@@ -23,11 +23,6 @@ class CreateMoviesTable extends Migration
             $table -> integer('vote');
 
             $table -> timestamps();
-
-
-
-
-
         });
     }
 
